@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: 10.11.75.190
   become: true
   tasks:
     - name: Ensure tenant customer-xyz exists
